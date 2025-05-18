@@ -1,0 +1,148 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.errorPage {
+  text-align: center;
+  padding: 4rem 1rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.errorTitle {
+  font-size: 2.5rem;
+  color: #ef4444;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.backLink {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #53ce31;
+  color: white !important;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.backLink:hover {
+  background: #44852f;
+  text-decoration: none;
+}
+
+.title {
+  font-size: 2rem;
+  color: #1a365d;
+  margin-bottom: 1rem;
+}
+
+.meta {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  color: #718096;
+}
+
+.type {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  color: #fff59c;
+}
+
+.gallery {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  line-height: 1.7;
+  margin-bottom: 3rem;
+}
+
+.paragraph {
+  margin: 1rem 0;
+  white-space: pre-line;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  color: #bfd6ff;
+  margin-bottom: 0;
+}
+
+.link {
+  display: inline-block;
+  color: #4299e1;
+  text-decoration: none;
+  transition: color 0.2s;
+  font-weight: 500;
+  padding: 4px 0;
+}
+
+.link:hover {
+  color: #3182ce;
+  text-decoration: underline;
+}
+
+.linkText {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.linkDescription {
+  color: #718096;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+@media (prefers-color-scheme: dark) {
+  .title {
+    color: #a6d9e8;
+  }
+
+  .errorPage {
+    background: #0a0a0a;
+  }
+
+  .errorTitle {
+    color: #f87171;
+  }
+
+  .backlink {
+    background: #53ce31;
+  }
+  .link {
+    color: #63b3ed;
+  }
+
+  .link:hover {
+    color: #4299e1;
+  }
+
+  .linkDescription {
+    color: #a0aec0;
+  }
+}
+.errorlink {
+    background: #235195;
+}

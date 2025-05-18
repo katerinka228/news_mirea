@@ -1,0 +1,33 @@
+/* not-found.module.css */
+.container {
+    text-align: center;
+    padding: 4rem;
+    min-height: 100vh;
+    background: #0a0a0a;
+    color: #fff;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #e53e3e;
+}
+
+.message {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #cbd5e0;
+}
+
+.link {
+    padding: 12px 24px;
+    background: #4299e1;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.link:hover {
+    background: #3182ce;
+}
