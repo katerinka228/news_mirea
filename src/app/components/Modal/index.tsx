@@ -74,7 +74,7 @@ export default function Modal({ news, onCloseAction }: ModalProps) {
                 }}
                 className={styles.fullLink}
             >
-              Открыть новость →
+              Открыть полностью
             </button>
           </div>
         </div>
